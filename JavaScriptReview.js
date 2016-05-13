@@ -37,9 +37,6 @@ reverse("keesje")
 function test (a,b)
 {
 
-    var a = []
-    var b = []
-
     if (a.length == b.length)
     {
     var obj = {}
@@ -48,7 +45,6 @@ function test (a,b)
     {
         obj[a[i]] = b[i]
     }
-
     console.log(obj)
     }   
     else 
@@ -60,6 +56,8 @@ function test (a,b)
  }
  
  test(["kees","pit","hassan"],["10","9","100"])
+ 
+
  
 
 myObject =  { 
